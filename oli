@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Tesler">
+      <meta name="keywords" content="Tesler">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+      <title>Tesler</title>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+      <link rel="stylesheet" type="text/css" href="assets/intlTelInput.min.css">
+      <link rel="stylesheet" href="assets/style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <script>
+   
+    var setting = {
+        lang:"en",
+        url: "oli", // DO NOT CHANGE This will be your API endpoint
+        campaigns: "oli", // This will Deside WHERE your leads will go 
+        landings: "default", // This will Deside WHICH Pixels to call
+        api_key: "oli", //  DO NOT CHANGE
+/*        required_message:"Please fill the  ", //  MSG FOR REQUIRED INPUT
+        valid_message:"Please fill valid ", //  MSG FOR NON VALID INPUT*/
+        submit:"Register Now", //  PLACEHOLDER for SUBMIT
+                tracking_affid:"", 
+        tracking_clickid: "",
+        tracking_offerid: "",
+        extra1: "",
+        extra2: "",
+        extra3: "",
+        extra4: "",
+        extra5: "",
+        source: "Tesler"
+};
+</script>
+     
+</head>
+   <body>
+      <header class="header">
+         <div class="myContainer">
+            <img src="assets/logo.png" alt="">
+         </div>
+      </header>
+      <section class="fScreen">
+         <div class="myContainer">
+            <div class="myRow">
+               <h1 class="main__title">Make Up to <span class="bold">$324</span> per hour Starting now, <span class="bold" id="dataCur"><script type="text/javascript">
+        <!--
+        // Array of day names
+        var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
+            "Thursday", "Friday", "Saturday");
+        // Array of month Names
+        var monthNames = new Array(
+            "January", "February", "March", "April", "May", "June", "July",
+            "August", "September", "October", "November", "December");
+        var now = new Date();
+        document.write(
+            monthNames[now.getMonth()] + " " +
+            now.getDate() );
+        // -->
+</script>
+</span><br> Just
+                  by Using This Platform for <span class="bold">5</span>
+                  Minutes 
+               </h1>
+            </div>
+            <div class="myRow myRow_two">
+               <div class="videoWrap">
+                  <div id="mainVideo" style="position: relative;">
+    <div id="MainVideobtn" style="position: absolute;right: 5%;top: 5%; z-index: +1;background: rgba(0, 0, 0, 0.7);border-radius: 30px;padding: 0 5px;color: #fff;" onclick="UnMute();"><img onclick="UnMute();" src="https://media.giphy.com/media/gfHIf1cc9ACGzVgLu0/giphy.gif"  style="width: 35px;"></div>
+    <video id="MainVideo"  controls="" style="width: 100%" autoplay="1" muted="1">
+        <source src="tesler_v1_page1.mp4" type="video/mp4" >
+    </video>
+</div>
+<script type="text/javascript">
+function UnMute() {
+  var video=document.getElementById("MainVideo")
+  video.muted = false;
+  document.getElementById("MainVideobtn").style.display = "none";
+}
+</script>
+
+               </div>
+              <div class="registrWrap" id="registration">
+                    <div class="register-title">
+                        Register
+                    </div>
+                    <div class="registWrap__form" id="form1">
+                        <div class="blur__content">
+                            <h2 class="form-fake__title">Feel the result in only 5 minutes <br>Test it now for a free
+                                trial
+                            </h2>
+                            <div class="lms-div default"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </section>
+      <div class="content-bg">
+         <section class="navigate">
+            <div class="myContainer">
+               <div class="myRow">
+                  <p class="navigate__descr">Tesler uses the latest revolutionary «Lead Pattern» data. Tesler App make
+                     everything
+                     you to start new life by
+                     earning for you in auto pilot. Our system <span class="bold">24/7</span> monitors financial markets and founds the best solutions
+                     for
+                     you. This allows people to receive an automated cut of the 8.1 trillion dollars that are traded every
+                     day!
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section class="members">
+            <div class="myContainer">
+               <div class="gallery">
+                  <h2 class="members__title">Our Members</h2>
+                  <div class="myColumn">
+                     <div class="members__box members__box_big">
+                        <div class="flug">
+                           <img src="assets/rus_icon.png" alt="RUS">
+                        </div>
+                        <div class="gallery__ava gallery__ava_big members__portret rus1">
+                           <div class="gallery__feedback">«Thanks to TESLER program I made over $14,000 in my first 4 days!
+                              At first
+                              I
+                              thought it was going to be complicated but it’s been really straight forward. I just
+                              registered, opened
+                              my personal account and let TESLER do the hard work. I got more than I expected.»
+                           </div>
+                        </div>
+                     </div>
+                     <div class="members__box ">
+                        <div class="flug">
+                           <img src="assets/frunch_icon.png" alt="franch">
+                        </div>
+                        <div class="gallery__ava gallery__ava_small members__portret franch1">
+                           <div class="gallery__feedback">“I never expected to make such a profit. I was wrong! I’ve earned
+                              nearly
+                              25
+                              thousand bucks in just 2 weeks. At this rate I’ll reach $82,478.22 within my first month.
+                              Incredibly
+                              pleased.”
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="myColumn">
+                     <div class="members__box">
+                        <div class="flug">
+                           <img src="assets/brit_icon.png" alt="brit">
+                        </div>
+                        <div class="gallery__ava gallery__ava_small members__portret brit2">
+                           <div class="gallery__feedback">"Dear the Tesler Team, thank you so much! $10,008 in just 48
+                              hours is a
+                              huge
+                              profit for me... Huge!! Thank You Steven!"
+                           </div>
+                        </div>
+                     </div>
+                     <div class="members__box">
+                        <div class="flug">
+                           <img src="assets/ital_icon.png" alt="Italy">
+                        </div>
+                        <div class="gallery__ava gallery__ava_small members__portret italy1">
+                           <div class="gallery__feedback">"Tesler earned for me more than $8 000 in the first 6 days! Now
+                              it so
+                              difficult to find job but now I don’t need it..Your Tesler software had improved my life and
+                              the life
+                              of my family. Thank you for this chance…
+                           </div>
+                        </div>
+                     </div>
+                     <div class="members__box">
+                        <div class="flug">
+                           <img src="assets/frunch_icon.png" alt="frunch">
+                        </div>
+                        <div class="gallery__ava gallery__ava_small members__portret frunch2">
+                           <div class="gallery__feedback">“"OMG! My wife thought I was joking when I showed her how much I
+                              made! Within the first hour I made $302.33!!! That’s all I needed to continue"...
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="myColumn">
+                     <div class="members__box members__box_big">
+                        <div class="flug">
+                           <img src="assets/irl_icon.png" alt="Irland">
+                        </div>
+                        <div class="gallery__ava gallery__ava_big members__portret irland1">
+                           <div class="gallery__feedback">"I always found only scams… There are many of them… fortunately
+                              for you
+                              and your members I couldn’t find any reason not to recommend your high achieving Tesler
+                              software. You
+                              are the first one platform which I can really recommend!"
+                           </div>
+                        </div>
+                     </div>
+                     <div class="members__box">
+                        <div class="flug">
+                           <img src="assets/germ_icon.png" alt="germ">
+                        </div>
+                        <div class="gallery__ava gallery__ava_small members__portret germ1">
+                           <div class="gallery__feedback">“I was shocked by the profits I made with TESLER. It’s so simple
+                              to use
+                              and the results have been nothing short of OUTSTANDING! I recommend it for sure, especially
+                              if you
+                              don’t know much about the markets because its 'click-click' simple.” Thank you so much
+                              Steven and the
+                              Tesler Team!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <section class="offers">
+         <div class="myContainer">
+            <div class="myRow offers__column ">
+               <div class="offers__left">
+                  <img class="offers__left_img" src="assets/phone.gif" alt="phone">
+               </div>
+               <div class="offers__right">
+                  <h2 class="offers__title">Tesler Offers</h2>
+                  <div class="border"></div>
+                  <ul class="offers__list">
+                     <li class="offers__item">Suits for both Beginners and Professionals.</li>
+                     <li class="offers__item">Game changing "Lead Pattern" Algorithm</li>
+                     <li class="offers__item">Makes up to $5,000 a day for everyone guaranteed</li>
+                     <li class="offers__item">Works on any device, installs in just 2 minutes.</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="why">
+         <div class="myContainer">
+            <div class="myRow">
+               <div class="why-me">
+                  <h2 class="why-me__title">why tesler</h2>
+                  <p class="why_me__descr">Our system constantly monitors the global financial markets, <span class="bold">24/7</span> Massive Data
+                     Crunching Mainframes to
+                     identify models in global markets. This allows everyone who wants to receive an automated slice of
+                     the <span class="bold">7.8</span>
+                     trillion dollars that are traded every single day!
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+<section class="step-section fScreen">
+                            <div class="container">
+                                <div class="row">
+                            <div class="col">
+                                <h2 class="head_works">How It Works</h2>
+                            </div>
+                        </div>
+                        <div class="row step-list">
+                            <div class="col-md-4 step-list__item">
+                              <!-- <h3>STEP 1</h3> -->
+                                <div class="step-body">
+                                    <i class="fas fa-edit icon_color"></i>
+                                    <p class="step-title"><strong>REGISTER ON THE SITE</strong></p>
+                                    <p class="text">Once your registration is accepted, you will automatically become the newest member of the <b>Tesler</b>. And you will get to claim our proprietary trading software for free.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 step-list__item">
+                              <!-- <h3>STEP 2</h3> -->
+                                <div class="step-body">
+                                    <i class="fas  fa-handshake icon_color"></i>
+                                    <p class="step-title"><strong>Fund Your Account</strong></p>
+                                    <p class="text">Like any business, you need working capital to get started. So to start profiting with the <b>Tesler</b>, you must invest any amount you desire of  <span class="currencyprefix">$</span>250<span class="currencypostfix"></span> or more.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 step-list__item">
+                              <!--  <h3>STEP 3</h3> -->
+                                <div class="step-body">
+                                    <i class="fas fa-chart-bar icon_color"></i>
+                                    <p class="step-title"><strong>Finish</strong></p>
+                                    <p class="text">Click trade to enjoy precise and accurate hands-free trading powered by our award-winning algorithm. You can also set the trading to manual if you prefer to trade on your own.</p>
+                                </div>
+                            </div>
+                        </div>    
+                        </div>
+                        </section>
+
+      <section class="news">
+         <div class="myRow">
+            <div class="myClumn_5">
+               <div class="myRow__200">
+                  <div class="news__bg_small"></div>
+                  <div class="news-div news-div_content">
+                     <div class="date-time silver-news"><script type="text/javascript">
+        var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = dd + '.' + mm + '.' + yyyy;
+document.write(today);
+</script>  
+ </div>
+                     <h1 class="news-titles">Drugmakers Jump</h1>
+                     <div class="news-border border"></div>
+                     <div class="silver-news">Pharmaceutical stocks and bonds were among the day’s biggest winners today, Tesler
+                        pounces...
+                     </div>
+                  </div>
+               </div>
+               <div class="myRow__200">
+                  <div class="news-div bg__long">
+                     <div class="date-time white"><script type="text/javascript">
+        var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = dd + '.' + mm + '.' + yyyy;
+document.write(today);
+</script>  
+ </div>
+                     <h1 class="news-titles">Unexpected Election Outcome</h1>
+                     <div class="news-border border"></div>
+                     <div>Here’s one way to sum up how Tesler made a killing for its members following the U.S.
+                        presidential election: Investors didn’t do what they were expected to do after American voters
+                        didn’t do what they were expected to do. Tesler Members made huge windfall profits!!!
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="myClumn_7">
+               <div class="myRow__400">
+                  <div class="news__bg_big"></div>
+                  <div class="news-div_big">
+                     <div class="date-time silver-news"><script type="text/javascript">
+        var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = dd + '.' + mm + '.' + yyyy;
+document.write(today);
+</script>  
+ </div>
+                     <h1 class="news-titles">How to Play the Nasdaq</h1>
+                     <div class="news-border border"></div>
+                     <div class="silver-news">Tesler analyzes Nasdaq "Lead Patterns" after Kevin Kelly discusses the recent performance
+                        of stocks and his options strategy for the Nasdaq 100 Index. Tesler Members make big bank
+                        (Source: Bloomburg Press)
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer-tesler">
+         <div class="myContainer">
+            <div class="myRow">
+               <div class="navigation">
+                 <!--  <div class="navigation__item"><a class="navigation__link navigation__link_before" href="">Home</a>
+                  </div> -->
+                  <div class="navigation__item"><a class="navigation__link" href="#"  style="cursor:pointer" data-terms="use">Terms & Conditions</a>
+                  </div>
+                  <div class="navigation__item"><a class="navigation__link" href="#"  style="cursor:pointer" data-terms="policy">Privacy
+                     Policy</a>
+                  </div>
+                 <!--  <div class="navigation__item"><a class="navigation__link" href="">Contact Us</a></div> -->
+               </div>
+            </div>
+         </div>
+      </footer>
+  
+     <style type="text/css">
+      .lms-div .form-control {
+      border-radius: 25px;
+color: #333;
+text-align: center;
+background: #DCDCDC;
+box-shadow: 0 0 8px #fff;
+}
+.form-group{
+   width: 100%;
+}
+.lms-btn{
+border: none;
+color: #ffffff;
+font-size: 20px;
+padding: 16px 0;
+border-radius: 60px !important;
+width: 100%;
+max-width: 350px;
+box-shadow: 0 0 6px #0800E1;
+text-shadow: 0 2px 5px rgba(0, 0, 0, .8);
+transition: all 0.3s;
+cursor: pointer;
+font-weight: 600;
+background: linear-gradient(to left, #015EFF 0%, #003CA3 100%);
+}
+     
+
+.step-section {
+  text-align: center;
+  position: relative; }
+  .step-section .container {
+    position: relative;
+    z-index: 2; }
+  .step-section:after {
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    height: 327px; }
+  .step-section h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 74px; }
+  .step-section .btn-warning {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 33px;
+    color: #2a2b51;
+
+     }
+
+.step-list {
+  margin-bottom: 65px; }
+  .step-list__item {
+    padding: 0;
+    -webkit-box-shadow: 0px 10px 36.3px 12.7px rgba(37, 26, 65, 0.1);
+    box-shadow: 0px 10px 36.3px 12.7px rgba(37, 26, 65, 0.1);
+    background: #fff; }
+    .step-list__item h3 {
+      color:#19dee3;
+      font-size: 26px;
+      font-weight: 1000;
+      padding: 17px 15px 15px;
+      background: #000000;
+      margin-bottom: 0; }
+    .step-list__item:first-child h3 {
+      background: #000000; }
+    .step-list__item:last-child h3 {
+      background: #000000; }
+    .step-list__item .icon {
+      font-size: 84px;
+      margin-bottom: 22px;
+      display: block;
+      color: #f0b400; }
+
+.step-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase; 
+  line-height: 34px!important;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.step-section .text {
+   font-size: 18px;
+   line-height: 30px !important;
+   color: #0d0c43 !important;
+}
+.step-body {
+   padding: 34px 30px 15px;
+   line-height: 1.5;
+   font-size: 14px;
+   color: #0f0f0f;
+}
+.step-section .icon_color {
+   color: #003CA3 ;
+   font-size: 40px;
+   margin: 10px;
+}
+.head_works{
+   color: #003CA3 ;
+   }
+   .lms-form
+{
+   margin: 5px 22px;
+}
+.lmsfooter
+{
+   z-index: 99999;
+   text-align: center;
+}
+.lmsfooter p
+{
+   width: 100%;
+   max-width: 990px;
+   margin: 0 auto;
+   color: black;
+}
+
+
+
+
+     </style>
+     <link rel="stylesheet" href="oli"> 
+    <script src="oli"></script>
+   </body>
+</html>
+
